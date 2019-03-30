@@ -1,5 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
+  response = phrase.upcase
   if phrase.upcase
     return "NO, NOT SINCE 1938!"
   elsif phrase.lowcase
